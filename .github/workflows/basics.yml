@@ -8,4 +8,10 @@ jobs:
     steps:
       - name: Say Hello world
         run: echo Hello world
+
+      - name: Multi line step
+        run: |
+          pwd
+          ls 
+
     
